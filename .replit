@@ -1,11 +1,16 @@
-entrypoint = "test.py"
-modules = ["python-3.12"]
+entrypoint = "order.py"
+modules = ["python-3.11"]
 
 [nix]
-channel = "stable-23_05"
+channel = "stable-24_05"
 
-
+[unitTest]
+language = "python3"
 
 [gitHubImport]
-requiredFiles = [".replit","replit.nix"]
+requiredFiles = [".replit", "replit.nix"]
+
+[deployment]
+run = ["python3","test.py","cake.py","order.py"]
+deploymentTarget = "cloudrun"
 
