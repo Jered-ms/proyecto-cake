@@ -1,0 +1,11 @@
+entrypoint = "test.py"
+modules = ["python-3.12"]
+
+[nix]
+channel = "stable-23_05"
+
+
+
+[gitHubImport]
+requiredFiles = [".replit","replit.nix"]
+
