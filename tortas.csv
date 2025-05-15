@@ -1,0 +1,4 @@
+porciones,sabor,rellenos,imagen,precio
+30,vainilla,manjar;crema;mermelada;chocolate,ruta/imagen.JPG,27000
+15,chocolate,manjar;crema;chocolate,ruta/imagen.JPG,15000
+15,chocolate,crema;mermelada;chocolate,ruta/imagen.JPG,15000

@@ -6,7 +6,7 @@ class User:
         self.rol = str(rol)
 
 
-""" jered = User("jered","20189898-6","jered.menares@usach.cl","usuario")
-print(jered.rut)
-jered=jered.lower() """
+jered = User("jered","20189898-6","jered.menares@usach.cl","usuario")
+print(jered.correo)
+
 
