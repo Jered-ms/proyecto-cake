@@ -17,11 +17,3 @@ class Order:
             print(f"ID del pedido: {self.ID}")
             print(f"{self.cake}")
 
-torta_de_frambuesa = Cake()
-torta_de_frambuesa.agregar_torta(30,"vainilla",['manjar','crema','mermelada','chocolate'],'ruta/imagen.JPG')
-
-
-pedido = Order()
-pedido.agregar_order(1,torta_de_frambuesa)
-
-pedido.mostrar_order()

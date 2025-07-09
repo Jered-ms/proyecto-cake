@@ -27,4 +27,4 @@ class Cake:
 
 #torta_de_frambuesa = Cake()
 #torta_de_frambuesa.agregar_torta(30,"vainilla",['manjar','crema','mermelada','chocolate'],'ruta/imagen.JPG')
-#print(torta_de_frambuesa.precio)
+#print(torta_de_frambuesa.precio) 
